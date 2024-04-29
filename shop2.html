@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contactus.css">
     <link rel="stylesheet" href="index.css">
-    <title>Contact Us</title>
+    <title>Amaze</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
@@ -21,11 +20,11 @@
             <a href="index.html"><img src="logo.jpg" alt=""></a>
         </div>
         <ul id="nav" class="nav-section">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="shop2.html">Shop</a></li>
-            
+            <li><a href="#">Home</a></li>
+            <li><a href="shop.html" class="active">Shop</a></li>
+            <!-- <li><a href="#">Blogs</a></li> -->
             <li><a href="about.html">About</a></li>
-            <li><a href="contactus.html" class="active">Contact us</a></li>
+            <li><a href="Contactus.html">Contact us</a></li>
             <li id="rem-bag"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
         </ul>
@@ -34,80 +33,79 @@
             <i id="bar" class="fas fa-outdent"></i>
         </div>
 
+
     </section>
 
-    <section class="backgd">
-        <div class="bg-image">
-            <h3>Shop</h3>
-            <h2>Shop here</h2>
-            <div class="line">
-                <div></div>
-                <div></div>
-                <div></div>
+
+    <section class="proimage">
+        <div class="lar-img">
+            <img src="" width="100%" id="main-img" alt="">
+
+            <div class="smallgrp">
+                <div class="img-col">
+                    <img src="denim.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="img-col">
+                    <img src="hero4.png" width="100%" class="small-img" alt="">
+                </div>
+                <div class="img-col">
+                    <img src="denim.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="img-col">
+                    <img src="denim.jpg" width="100%" class="small-img" alt="">
+                </div>
             </div>
-            <p class="text">
-                Get in touch with us by visiting the shop and calling on the given numbers or emailing us on working
-                days, will get back to you soon.Free delivery on order above 2000.
-            </p>
-
         </div>
 
-
-
-
-
-
-
-
-    </section>
-
-    <section class="contact-info">
-        <div>
-            <span><i class="fa-solid fa-phone"></i>
-            </span>
-            <span>Phone Number</span>
-            <span class="text">+91-85598-34483</span>
-        </div>
-        <div>
-            <span><i class="fa-solid fa-envelope"></i>
-            </span>
-            <span>Email</span>
-            <span class="text">shopamaze@gmail.com</span>
-        </div>
-        <div>
-            <span><i class="fa-solid fa-location-dot"></i>
-            </span>
-            <span>Visit us</span>
-            <span class="text">2939 Street, United States</span>
-        </div>
-        <div>
-            <span><i class="fa-solid fa-clock"></i>
-            </span>
-            <span>Open Hours</span>
-            <span class="text"> Monday-Friday(9:00 AM to 5:00 PM)</span>
+        <div class="img-det">
+            <h6>Home /T-Shirts</h6>
+            <h4>
+                Men's Fashion T-Shirt
+            </h4>
+            <h2>$80</h2>
+            <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>L</option>
+                <option>M</option>
+                <option>S</option>
+            </select>
+            <input type="number" value="1">
+            <button class="add-to-cart">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>Discover the epitome of comfort and style with our latest collection of clothing. Crafted from premium quality fabrics, our clothing line is designed to elevate your everyday wardrobe. From casual tees and cozy sweaters to chic dresses and tailored suits, each piece exudes timeless elegance and modern sophistication. Whether you're dressing for a casual outing, a formal event, or simply lounging at home, our diverse range of styles ensures there's something for every occasion. Embrace versatility and effortless charm with our meticulously curated collection, and redefine your personal style with confidence."</span>
         </div>
     </section>
 
-    <section class="contact-form">
+    <section id="sinsection" class="featured-prod">
+        <h2 id="shops">Other Collection</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="products">
 
-        <form action="#">
-            <div>
-                <input type="text" class="form-control" placeholder="First Name">
-                <input type="text" class="form-control" placeholder="Last Name">
+            <div class="prod-id">
+                <img src="images/shirt5.jpg" alt="">
+                <div class="text">
+                    <p>VeBNoR</p>
+                    <h6>VeBNoR Men's Shirts</h6>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h5>$25</h5>
+                </div>
+                <div class="cart-but">
+                    <button class="add-to-cart"><i class="fa-solid fa-cart-arrow-down carts"></i></button>
+                </div>
             </div>
-            <div>
-                <input type="email" class="form-control" placeholder="E-mail">
-                <input type="text" class="form-control" placeholder="Phone">
-            </div>
-            <textarea placeholder="Message" class="form-control" rows="5"></textarea>
-            <input type="submit" class="send-btn" value="Send Message">
+            <!-- Other product details -->
 
-        </form>
-
-        <div class="support-img">
-            <img src="contactimages/support.jpg" alt="">
         </div>
     </section>
+
 
     <section class="newsletter">
         <div class="text">
@@ -119,61 +117,42 @@
             <button class="sub-but">Send</button>
         </div>
     </section>
-    
-    <script src="index.js"></script>
 
 
     <footer class="footer">
         <div class="foot-container">
-            <div class="foot-row">
-                <div class="foot-col">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Affiliate program</a></li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4>Get Help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Order Status</a></li>
-                        <li><a href="#">Payment Option</a></li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4>Online Shop</h4>
-                    <ul>
-                        <li><a href="#">Watch</a></li>
-                        <li><a href="#">Bag</a></li>
-                        <li><a href="#">Shoes</a></li>
-                        <li><a href="#">Dress</a></li>
-                    </ul>
-                </div>
-                <div class="foot-col">
-                    <h4>Follow us</h4>
-                    <div class="social-links-foot">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-            </div>
+            <!-- Footer content -->
         </div>
         <div class="copyright-foot">
             <p>© 2022, Divanshu Marwaha,Internet Programming Project</p>
         </div>
     </footer>
 
-    
+    <script src="index.js"></script>
+    <script>
+        var addToCartButtons = document.querySelectorAll('.add-to-cart');
 
+        addToCartButtons.forEach(function(button) {
+            button.addEventListener('click', function() {
+                // Get product details
+                var product = button.closest('.prod-id');
+                var productName = product.querySelector('h6').textContent;
+                var productPrice = product.querySelector('h5').textContent;
 
+                // Create a new cart item
+                var cartItem = document.createElement('div');
+                cartItem.classList.add('cart-item');
+                cartItem.innerHTML = `
+                    <span>${productName}</span>
+                    <span>${productPrice}</span>
+                `;
 
+                // Append the cart item to the cart
+                var cart = document.getElementById('rem-bag');
+                cart.appendChild(cartItem);
+            });
+        });
+    </script>
 </body>
 
 </html>
